@@ -87,12 +87,19 @@ display: none;
   #calc form{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0rem;
+  }
+
+  .contact{
+    margin: -3rem auto;
+  }
+  .calc{
+    margin-top: -5rem;
   }
 
   .calc button{
     position: relative;
-    bottom: 0;
+    top:85%;
     left: 0;
   }
 
