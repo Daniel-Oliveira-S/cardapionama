@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px) {
+#nav img{
+    width: fit-content;
+}
+
+#nav .CTA{
+display: none;
+}
+    #menu{
+        display: none;
+    }
+  .text-btn h2 {
+    margin: 0 auto;
+  }
+
+  .title-desc {
+    width: 80%;
+  }
+  .title-desc h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero {
+    height: 150vh;
+  }
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .text-form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .text-form form {
+    align-items: center;
+  }
+
+  .container img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .flex-services {
+    flex-direction: column;
+    gap: 2rem;
+  }
+#testimonials{
+    margin: 2rem 0;
+}
+  .slide {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .slide img{
+    width: 80%;
+  }
+
+  .text-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-btn p{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  #attendant {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #calc form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .calc button{
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  #calc h2{
+    position: relative;
+    top: 0;
+    margin-top: 2rem;
+  }
+
+  #attendant img {
+    width: 80%;
+    margin: 2rem 0;
+  }
+
+  #status {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #status img {
+    width: 80%;
+    margin: 2rem 0;
+  }
+
+  .objectives {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #trust {
+    text-align: center;
+  }
+  #trust video {
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  .CEOs {
+    flex-direction: column;
+  }
+
+  .Felipe p,
+  .Rafa p {
+    text-align: center;
+  }
+  #products {
+    flex-direction: column;
+  }
+
+  .products {
+    width: 100%;
+  }
+}
