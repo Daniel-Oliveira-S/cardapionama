@@ -68,6 +68,41 @@ export function CalculatorForm() {
   }
   return (
     <form ref={form} onSubmit={sendEmail} className="hero-form">
+
+
+<div className="calc">
+  
+  <label htmlFor="">
+          Quanto quer investir?*
+          <select name="amount" id="">
+            <option value="0 a 100 mil"> 0 a 100 mil</option>
+            <option value="100 a 200 mil">100 a 200 mil</option>
+            <option value="200 a 300 mil"> 200 a 300 mil</option>
+            <option value="300 a 400 mil"> 300 a 400 mil</option>
+            <option value="400 a 500 mil"> 400 a 500 mil</option>
+          </select>
+        </label>
+        <label htmlFor="">
+          Quanto tempo quer investir?*
+          <select name="time" id="time">
+            <option value="1 ano">1 ano</option>
+            <option value="2 anos">2 anos</option>
+            <option value="3 anos">3 anos</option>
+            <option value="4 anos">4 anos</option>
+            <option value="5 anos">5 anos</option>
+          </select>
+        </label>
+        <label htmlFor="">
+          Perfil de investimento
+          <select name="profile" id="">
+            <option value="conservador">Conservador</option>
+            <option value="moderado">Moderado</option>
+            <option value="agressivo">Agressivo</option>
+          </select>
+        </label>
+        <button type="submit">Enviar</button>
+  
+  </div>
       <div className="contact">
       <label htmlFor="">
         Nome*
@@ -82,39 +117,7 @@ export function CalculatorForm() {
         <input type="tel" name="user_phone" required />
       </label>
       </div>
-<div className="calc">
-  
-<label htmlFor="">
-        Quanto quer investir?*
-        <select name="amount" id="">
-          <option value="0 a 100 mil"> 0 a 100 mil</option>
-          <option value="100 a 200 mil">100 a 200 mil</option>
-          <option value="200 a 300 mil"> 200 a 300 mil</option>
-          <option value="300 a 400 mil"> 300 a 400 mil</option>
-          <option value="400 a 500 mil"> 400 a 500 mil</option>
-        </select>
-      </label>
-      <label htmlFor="">
-        Quanto tempo quer investir?*
-        <select name="time" id="time">
-          <option value="1 ano">1 ano</option>
-          <option value="2 anos">2 anos</option>
-          <option value="3 anos">3 anos</option>
-          <option value="4 anos">4 anos</option>
-          <option value="5 anos">5 anos</option>
-        </select>
-      </label>
-      <label htmlFor="">
-        Perfil de investimento
-        <select name="profile" id="">
-          <option value="conservador">Conservador</option>
-          <option value="moderado">Moderado</option>
-          <option value="agressivo">Agressivo</option>
-        </select>
-      </label>
-      <button type="submit">Enviar</button>
 
-</div>
 
     </form>
   );

@@ -281,7 +281,7 @@ height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin: 1rem auto 0;
+  margin: 0rem auto 0;
   gap: 2rem;
   border-radius: 0.5rem;
   position: relative;
@@ -303,7 +303,7 @@ height: 100%;
   border: none;
   position: absolute;
   bottom: -6rem;
-  right: 60%;
+  left: 65%;
 
 }
 #status {
