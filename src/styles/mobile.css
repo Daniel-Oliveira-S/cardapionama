@@ -58,11 +58,11 @@ display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap: 1rem;
   }
 
   .slide img{
-    width: 80%;
+    width: 300px;
   }
 
   .text-btn{
