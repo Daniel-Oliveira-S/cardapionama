@@ -10,8 +10,8 @@ export function HeroForm() {
     console.log(e.currentTarget);
 
     emailjs
-      .sendForm("service_82jz6gt", "template_oteri4b", e.currentTarget, {
-        publicKey: "nWAftvgZzXpLGOKfu",
+      .sendForm("service_6619ras", "template_ov3ovcb", e.currentTarget, {
+        publicKey: "ewS7sfVbmRQKUx7vZ",
       })
       .then(
         () => {
@@ -53,8 +53,8 @@ export function CalculatorForm() {
     console.log(e.currentTarget);
 
     emailjs
-      .sendForm("service_82jz6gt", "template_oteri4b", e.currentTarget, {
-        publicKey: "nWAftvgZzXpLGOKfu",
+      .sendForm("service_6619ras", "template_bw9pjcv", e.currentTarget, {
+        publicKey: "ewS7sfVbmRQKUx7vZ",
       })
       .then(
         () => {
