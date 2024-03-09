@@ -7,7 +7,7 @@ import {
   InstagramLogo as Instagram,
   LinkedinLogo,
 } from "@phosphor-icons/react";
-import { Slider } from "../utils/slider";
+import Slider from "../utils/slider";
 export function UseDesktop() {
   return (
     <>

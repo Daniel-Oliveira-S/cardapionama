@@ -1,6 +1,7 @@
+import { ArrowLeft, ArrowRight } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
 
-export function Slider(){
+export default function Slider(){
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         {
@@ -49,20 +50,28 @@ export function Slider(){
 
 
 
-      return( 
-        <>
-                  <div className={`slide ${slides[currentSlide].class}`}>
-                <img className="" src={slides[currentSlide].img} alt="" />
-                <div className="text-btn">
-                  <h2 className="">{slides[currentSlide].title}</h2>
-                  <p>{slides[currentSlide].text}</p>
-                  <a href={slides[currentSlide].href} target="_blank">
-                    {slides[currentSlide].btn}
-                  </a>
-                </div>
-              </div>
-         </>
-      )
-    
-}
+     return(
+      <>
+      <div className={`slide ${slides[currentSlide].class}`}>
+     
+      <div className="slide-prev" onClick={() => setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1))}> 
+        <ArrowLeft className="nav-slide" />
+      </div>
+    <img className="" src={slides[currentSlide].img} alt="" />
+    <div className="text-btn">
+      <h2 className="">{slides[currentSlide].title}</h2>
+      <p>{slides[currentSlide].text}</p>
+      <a href={slides[currentSlide].href} target="_blank">
+        {slides[currentSlide].btn}
+      </a>
+    </div>
+    <div className="slide-next" onClick={() => setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1))}>
+        <ArrowRight className="nav-slide" />
+      </div>
+  </div>
+</>
 
+     )
+    
+
+      }

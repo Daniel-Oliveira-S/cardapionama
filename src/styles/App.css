@@ -225,6 +225,13 @@ input:focus {
   padding: 0.5rem 2rem;
   border-radius: 2rem;
 }
+
+.nav-slide {
+  display: flex;
+  width: 500px;
+  cursor: pointer;
+}
+
 #attendant {
   display: flex;
   justify-content: center;
