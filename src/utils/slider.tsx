@@ -50,7 +50,7 @@ export default function Slider(){
       draggable={true}
       loop={true}
       slidesPerView={1}
-      spaceBetween={30}
+      spaceBetween={0}
       autoplay={{
         delay: 5000,
         disableOnInteraction: false,
