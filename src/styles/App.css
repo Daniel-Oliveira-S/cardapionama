@@ -6,7 +6,8 @@
   scroll-behavior: smooth;
 }
 
-input, select {
+input,
+select {
   outline: none;
   padding: 1rem 4.2rem;
   border: none;
@@ -22,13 +23,11 @@ form button {
   font-size: 1rem;
   width: 60%;
   border: 2px solid #f8bd26;
+  background: #f8bd26;
 }
 
 form button:hover {
-  background: #f8bd26;
-  color: #000;
-  font-weight: bold;
-  font-size: 1.1rem;
+  background: #facf61;
 }
 
 input:hover {
@@ -193,16 +192,14 @@ input:focus {
   background: #22232a;
 }
 
-.slides{
+.slides {
   justify-content: center;
-margin-bottom: 4rem;
-gap: 5rem;
-width: fit-content;
-margin-left: 2rem;
-
-
+  margin-bottom: 4rem;
+  gap: 5rem;
+  width: fit-content;
+  margin-left: 2rem;
 }
-.swiper-slide.slides.swiper-slide-active{
+.swiper-slide.slides.swiper-slide-active {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,7 +207,7 @@ margin-left: 2rem;
   margin-right: 0 !important;
 }
 
-.text-slide{
+.text-slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,13 +215,12 @@ margin-left: 2rem;
   width: 600px;
 }
 
-
-.slides img{
+.slides img {
   width: 300px;
   border-radius: 0.5rem;
 }
 
-.slides h2{
+.slides h2 {
   font-size: 2rem;
   font-weight: 400;
   color: #f8bd26;
@@ -232,12 +228,12 @@ margin-left: 2rem;
   margin-top: 3rem;
 }
 
-.slides p{
+.slides p {
   color: #fff;
   width: 80%;
 }
 
-.slides a{
+.slides a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
@@ -246,23 +242,21 @@ margin-left: 2rem;
   background: #fff;
   padding: 1rem 2rem;
   width: fit-content;
-
 }
 
-.slides a:hover{
+.slides a:hover {
   background: #f8bd26;
 }
 
-.swiper-pagination-bullet.swiper-pagination-bullet-active{
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #f8bd26;
 }
 
-.mySwiper{
+.mySwiper {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav-slide {
@@ -283,11 +277,11 @@ margin-left: 2rem;
 .text-btn {
   display: block;
 }
-#calc{
+#calc {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('https://static.wixstatic.com/media/c470d0_abd446616cd2487b839e05577e81f068~mv2.jpg/v1/fill/w_1903,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c470d0_abd446616cd2487b839e05577e81f068~mv2.jpg');
+  background-image: url("https://static.wixstatic.com/media/c470d0_abd446616cd2487b839e05577e81f068~mv2.jpg/v1/fill/w_1903,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c470d0_abd446616cd2487b839e05577e81f068~mv2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -295,34 +289,32 @@ margin-left: 2rem;
   position: relative;
 }
 
-#calc h2{
+#calc h2 {
   position: absolute;
   color: #fff;
   text-align: center;
   top: 20%;
 }
-#calc form{
-display: flex;
-gap: 5rem;
-justify-content: center;
-align-items: center;
-height: 100%;
+#calc form {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-#calc form label{
+#calc form label {
   color: #fff;
 }
 
-
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
 }
-.calc{
+.calc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,26 +323,22 @@ height: 100%;
   gap: 2rem;
   border-radius: 0.5rem;
   position: relative;
-
 }
 
-.calc  select{
+.calc select {
   width: 300px;
   margin: 0 auto;
   border: none;
   border-radius: 0.5rem;
 }
 
-
-
-.calc button{
+.calc button {
   width: 100%;
   margin: 0 auto;
   border: none;
   position: absolute;
   bottom: -6rem;
   left: 65%;
-
 }
 #status {
   display: flex;

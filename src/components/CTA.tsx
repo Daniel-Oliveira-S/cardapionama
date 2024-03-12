@@ -4,6 +4,9 @@ interface CTAProps {
   children: React.ReactNode;
   href: string;
   id?: string;
+  rel?: string;
+  target?: string;
+
 }
 
 export function CTA(props: CTAProps) {
@@ -19,7 +22,7 @@ export function CTA(props: CTAProps) {
   }
 
   return (
-    <a href={props.href} className="CTA" onClick={scroll} id={props.id}>
+    <a href={props.href} className="CTA" onClick={scroll} id={props.id} rel={props.rel} target={props.target}>
       {props.children}
     </a>
   );

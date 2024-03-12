@@ -1,4 +1,3 @@
-import { CTA } from "./CTA";
 import "../styles/header.css"
 export default function Header() {
 
@@ -18,9 +17,10 @@ export default function Header() {
                     <li><a href="#results" >Resultados</a></li>
                     <li><a href="#trust" >Pode confiar</a></li>
                 </ul>
-                <CTA href="">
-                    Investir
-                </CTA>
+                <a className="CTA" href="https://calendly.com/thiago_berquo_liv_capital/liv-capital-thiago-berquo-1-reuniao" rel="noopener noreferer"
+                target="_blank" >
+                    Agende uma reunião
+                </a>
             </nav>
         </header>
     );

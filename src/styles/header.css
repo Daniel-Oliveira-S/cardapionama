@@ -46,3 +46,14 @@ li a{
     font-size: .95rem;
     font-family: 'Basic', sans-serif;
 }
+
+#nav .CTA{
+    background: #f8bd26;
+    padding: .4rem 3rem;
+}
+
+#nav .CTA:hover{
+    background: #facf61;
+    font-weight: normal;
+    font-size: 1rem;
+}
