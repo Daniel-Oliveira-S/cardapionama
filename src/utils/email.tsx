@@ -39,7 +39,7 @@ export function HeroForm() {
         <input type="tel" name="user_phone" required />
       </label>
 
-      <button type="submit">Falar com um acessor</button>
+      <button type="submit">Falar com um assessor</button>
     </form>
   );
 }
