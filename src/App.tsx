@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css'
-import logo from './assets/logo.png'
-import mulher from './assets/MULHER-PESO.png'
+import logo from './asset/logo.png'
+import mulher from './asset/MULHER-PESO.png'
 import {ContactUs} from './email';
 export default function App() {
   const [peso, setPeso] = useState("");
