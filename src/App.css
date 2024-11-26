@@ -101,14 +101,23 @@ input::placeholder{
   font-family: "Cabin", sans-serif;
 }
 .calc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-bottom: 4rem;
+  gap: 2rem;
   
+}
+
+.calc input{
+  width: 200px;
 }
 .calc label{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
 }
 
 label input::placeholder{
